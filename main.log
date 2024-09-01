@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.23)  31 AUG 2024 17:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.23)  1 SEP 2024 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/joshuakelly/Documents/GitHub/MATH1032-01/Lecture Notes/main.tex"
-(/Users/joshuakelly/Documents/GitHub/MATH1032-01/Lecture Notes/main.tex
+**/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex
+(/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/book.cls
@@ -836,7 +836,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./main.toc)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+[2] (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -851,7 +861,7 @@ Chapter 1.
 ]
 Chapter 2.
 
-Overfull \hbox (120.18018pt too wide) in paragraph at lines 267--268
+Overfull \hbox (120.18018pt too wide) in paragraph at lines 275--276
  [] 
  []
 
@@ -867,17 +877,17 @@ Chapter 3.
 ]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
 
  []
 
 [13] [14]
-Overfull \hbox (12.68808pt too wide) in paragraph at lines 340--340
+Overfull \hbox (12.68808pt too wide) in paragraph at lines 348--348
 \OT1/cmr/m/n/10 978-1-947172-13-5. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : [][]$\OT1/cmtt/m/n/10 https : / / openstax . org / details / books / calculus -[]
  []
 
@@ -895,18 +905,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34178 strings out of 474116
- 691189 string characters out of 5743682
+ 34179 strings out of 474116
+ 691197 string characters out of 5743682
  1958187 words of memory out of 5000000
  55971 multiletter control sequences out of 15000+600000
  568312 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,96p,875b,1283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,7n,96p,873b,1283s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (15 pages, 226033 bytes).
+Output written on main.pdf (15 pages, 230382 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
- 86 named destinations out of 1000 (max. 500000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 342 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
  413 words of extra memory for PDF output out of 10000 (max. 10000000)
 

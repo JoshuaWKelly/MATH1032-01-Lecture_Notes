@@ -1,8 +1,8 @@
-PWD /Users/joshuakelly/Documents/GitHub/MATH1032-01/Lecture Notes
+PWD /Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/joshuakelly/Documents/GitHub/MATH1032-01/Lecture Notes/main.tex
+INPUT /Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/book.cls
