@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1725141208.64195 "main.bcf" "main.bbl" "main" 1725222085.27958 0
+["biber main"] 1725141208.64195 "main.bcf" "main.bbl" "main" 1725224756.2937 0
   "calc.bib" 1725221204.93539 1403 f9d92da2b50a395fd62d3825bf98d737 ""
-  "main.bcf" 1725222085.18681 107770 39c44d44016749e1082c5520caf2840c "pdflatex"
+  "main.bcf" 1725224756.20643 107770 39c44d44016749e1082c5520caf2840c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1725222084.04796 "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" "main.pdf" "main" 1725222085.27985 0
-  "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" 1725222083.82065 10308 dfd23ada9899c8edfefd2ac4df2349d1 ""
+["pdflatex"] 1725224755.1004 "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" "main.pdf" "main" 1725224756.29398 0
+  "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" 1725224754.8974 11148 63213782f03ed23c8bd3079b7a904a2f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -217,12 +217,12 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1721751789.26367 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1721751736 8221420 18f7b56ff33f4072bd1e973669497225 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1725222085.18527 4625 4434c51e60cbb7b33d2b5ed0a14db92f "pdflatex"
+  "main.aux" 1725224756.20469 4808 847b404cccabb9fc16bc39a0e3318e29 "pdflatex"
   "main.bbl" 1725221204.93562 5642 14e8eed3d3983e560701736692d18488 "biber main"
-  "main.out" 1725222085.18601 4448 3cbfba6fdd3a47cb26d831aa9d4e5002 "pdflatex"
-  "main.run.xml" 1725222085.18767 2299 b2c9fb5e9d691e58f2d3f66f33bb5ad0 "pdflatex"
-  "main.tex" 1725222083.82065 10308 dfd23ada9899c8edfefd2ac4df2349d1 ""
-  "main.toc" 1725222085.18773 2577 193949a77a55c86b49b0c78d99b713d7 "pdflatex"
+  "main.out" 1725224756.2056 4533 91958510a64dd3250fe83cd9d5d83b51 "pdflatex"
+  "main.run.xml" 1725224756.20724 2299 b2c9fb5e9d691e58f2d3f66f33bb5ad0 "pdflatex"
+  "main.tex" 1725224754.8974 11148 63213782f03ed23c8bd3079b7a904a2f ""
+  "main.toc" 1725224756.20732 2643 5859672a3096e37164b57399d7ded860 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

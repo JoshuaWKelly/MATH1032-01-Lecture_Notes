@@ -45,6 +45,19 @@ fonttitle=\bfseries,#1}
 \author{Joshua W. Kelly}
 \date{\today}
 
+% ======================================================================
+%
+% Notes: 
+%
+% You can use \label{sec:1} to refer to sections in your document, and then us \ref{sec:1} to refer to the section number.
+%
+% \begin{definition} and \end{definition} (grey) can be used to define a definition in your document. As well as \begin{example} and \end{example} (blue) for examples, \begin{important} and \end{important} (red) for important notes, \begin{formula} and \end{formula} (maroon) for formulas, and \begin{proof} and \end{proof} (green) for proofs.
+% 
+% \usepackage[colorlinks]{hyperref} allows you to click on the table of contents and it will take you to the section in the document.
+% 
+% ======================================================================
+
+
 \begin{document}
 
 \maketitle
@@ -344,5 +357,13 @@ b) \([0.50, 0.51]\) \\
 % Biblography 
 
 \printbibliography
+
+\newpage
+
+\begin{appendix}
+\chapter{Appendix}
+	One
+	
+\end{appendix}
 
 \end{document}
