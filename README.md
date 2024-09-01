@@ -5,7 +5,8 @@ These lecture notes are a compilation of material from the course Analytic Geome
 
 The content primarily draws from _Calculus Volume 1_ by Gilbert Strang et al., a foundational text that provides a thorough introduction to calculus. Problems, examples, and exercises referenced in these notes are sourced directly from this textbook unless otherwise noted. The intention is to provide students with a resource that not only follows the course curriculum but also adds depth and clarity to the material covered in lectures.
 
-I hope these notes serve as a helpful guide for anyone studying calculus and encourage further exploration and understanding of the subject.\\
+I hope these notes serve as a helpful guide for anyone studying calculus and encourage further exploration and understanding of the subject.
 
 Joshua W. Kelly
+
 _La Roche University_
