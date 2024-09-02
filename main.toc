@@ -39,10 +39,10 @@
 \contentsline {chapter}{\numberline {4}Limits}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{17}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Intutive Definition of a Limit}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Preview of Calculus}{17}{section.4.3}%
-\contentsline {section}{\numberline {4.4}The Limit of A Function}{17}{section.4.4}%
-\contentsline {section}{\numberline {4.5}The Limit Laws}{17}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Continuity}{17}{section.4.6}%
-\contentsline {section}{\numberline {4.7}The Precise Definition of a Limit}{17}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Derivatives}{19}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Appendix}{23}{appendix.A}%
+\contentsline {section}{\numberline {4.3}Preview of Calculus}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}The Limit of A Function}{18}{section.4.4}%
+\contentsline {section}{\numberline {4.5}The Limit Laws}{18}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Continuity}{18}{section.4.6}%
+\contentsline {section}{\numberline {4.7}The Precise Definition of a Limit}{18}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Derivatives}{21}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Appendix}{25}{appendix.A}%

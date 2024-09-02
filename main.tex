@@ -16,6 +16,8 @@
 \addbibresource{calc.bib}
 \usepackage[most]{tcolorbox}
 \tcbuselibrary{skins,breakable}
+
+% Creates a new tcolorbox environment for definitions, examples, important notes, formulas, and proofs.
 \newtcolorbox{definition}[2][]{breakable,sharp corners, skin=enhancedmiddle jigsaw,parbox=false,
 boxrule=0mm,leftrule=2mm,boxsep=0mm,arc=0mm,outer arc=0mm,attach title to upper,
 after title={.\ }, coltitle=black,colback=gray!10,colframe=black, title={#2},
@@ -41,9 +43,9 @@ boxrule=0mm,leftrule=2mm,boxsep=0mm,arc=0mm,outer arc=0mm,attach title to upper,
 after title={.\ }, coltitle=green,colback=green!10,colframe=green, title={#2},
 fonttitle=\bfseries,#1}
 
-\title{MATH1023-01: Lecture Notes}
-\author{Joshua W. Kelly}
-\date{\today}
+\title{MATH1023-01: Lecture Notes} % Title of the document
+\author{Joshua W. Kelly} % Author of the document
+\date{\today} % Date of the document
 
 % ======================================================================
 %
@@ -54,16 +56,18 @@ fonttitle=\bfseries,#1}
 % \begin{definition} and \end{definition} (grey) can be used to define a definition in your document. As well as \begin{example} and \end{example} (blue) for examples, \begin{important} and \end{important} (red) for important notes, \begin{formula} and \end{formula} (maroon) for formulas, and \begin{proof} and \end{proof} (green) for proofs.
 % 
 % \usepackage[colorlinks]{hyperref} allows you to click on the table of contents and it will take you to the section in the document.
+%
+% \[ \] is used to create standalone a math equation in the document. and \begin{align*} and \end{align*} is used to create a math equation with multiple lines. \( \) is used to create a math equation in the text.
 % 
 % ======================================================================
 
 
 \begin{document}
 
-\maketitle
+\maketitle % Creates the title page
 
 
-\section*{Author's Note}
+\section*{Author's Note} % Section without numbering
 These lecture notes are a compilation of material from the course Analytic Geometry and Calculus I (MATH1032) at La Roche University for the Fall 2024 Semester, supplemented with personal notes and reflections on the subject matter. My notes may be accessed at \\ \url{https://github.com/JoshuaWKelly/MATH1032-01-Lecture_Notes/tree/main}. The formatting and style of these notes are inspired by the Feynman Lectures on Physics (\url{https://www.feynmanlectures.caltech.edu/}), and aim to present the concepts of calculus and analytic geometry in an engaging and accessible manner -- similar to how Richard Feynman conveyed complex physics topics.
 
 The content primarily draws from \textit{Calculus Volume 1} by Gilbert Strang et al.\cite{strang_calculus_2016}, a foundational text that provides a thorough introduction to calculus. Problems, examples, and exercises referenced in these notes are sourced directly from this textbook unless otherwise noted. The intention is to provide students with a resource that not only follows the course curriculum but also adds depth and clarity to the material covered in lectures.
@@ -73,14 +77,14 @@ I hope these notes serve as a helpful guide for anyone studying calculus and enc
 \noindent{Joshua W. Kelly} \\
 \textit{La Roche University} \\ 
 
-\tableofcontents
+\tableofcontents % Creates a table of contents
 
 \newpage
 
-\chapter{Important Formulas}
+\chapter{Important Formulas} % Chapter 1
 \section{Linear Functions}
 \subsection{Slope-Intercept Form}
-\begin{equation}
+\begin{equation} 
     f(x) = mx + b
 \end{equation}
 
@@ -447,7 +451,8 @@ If \(x=0\), \(\sec\theta\), and \(\tan\theta\) are defined. If \(y=0\), then \(\
 
 \chapter{Review of Functions}
 \section{Introduction}
-This is the introduction section of my document.
+
+
 \section{Linear Functions}
 A linear function is a function that can be written in the form $f(x) = mx + b$, where $m$ is the slope of the line and $b$ is the $y$-intercept.
 
@@ -462,6 +467,15 @@ Hyperbolic cosine
 \section{Introduction}
 This is the introduction section of my document.
 \section{Intutive Definition of a Limit}
+Imagine you’re standing on the shore, looking out at the ocean. You see a boat far away, and it’s moving towards you. As the boat gets closer, it appears larger and clearer, but if it were to keep coming closer indefinitely, it would eventually reach you, right at your feet. Now, we might say that the boat “approaches” you as it moves closer and closer.
+
+In mathematics, a limit is a way of describing what happens when we look at how something changes as we move closer to a certain point. Think of it as focusing on what happens in the “long run” as we approach a specific point, rather than what happens exactly at that point.
+
+Let’s use an example with numbers: Imagine you have a sequence of numbers that gets closer and closer to 10, like 9, 9.9, 9.99, 9.999, and so on. Even though none of these numbers are exactly 10, we can say that “in the limit,” these numbers are approaching 10. The limit of this sequence is 10 because, as we go further along in the sequence, the numbers get arbitrarily close to 10.
+
+In this sense, a limit is about getting closer and closer to something without necessarily ever reaching it. It’s about the behavior of a function or a sequence as we move toward a certain point or as the input grows indefinitely.
+
+In mathematical terms, if we say the limit of \(f(x)\) as \(x\) approaches \(a\) is \(L\), we mean that we can get \(f(x)\) as close as we want to \(L\) by taking x sufficiently close to \(a\), but not necessarily equal to \(a\).
 
 \section{Preview of Calculus}
 
