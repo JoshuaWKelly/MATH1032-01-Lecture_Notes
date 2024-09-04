@@ -6,11 +6,15 @@
 % Date: August 30, 2024
 % ======================================================================
 
-\documentclass{book}
+\documentclass[12pt]{book}
 \usepackage{graphicx}
 \usepackage[colorlinks]{hyperref}
 \usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{siunitx}
 \usepackage{fontawesome}
+\usepackage[table]{xcolor}
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage[backend=biber]{biblatex}
@@ -59,6 +63,16 @@ fonttitle=\bfseries,#1}
 % \usepackage[colorlinks]{hyperref} allows you to click on the table of contents and it will take you to the section in the document.
 %
 % \[ \] is used to create standalone a math equation in the document. and \begin{align*} and \end{align*} is used to create a math equation with multiple lines. \( \) is used to create a math equation in the text.
+%
+% You can use the code below to create a table in your document.
+% 
+% \rowcolors{3}{gray!10}{white!50}
+% \begin{tabular}{*5l} \toprule
+% Header 1 & Header 2 \\ \midrule
+% Middle Row &Middle Row \\
+% Middle Row & Middle Row \\
+% Last Row 1 & Last Row 2 \\ \bottomrule
+% \end{tabular}
 % 
 % ======================================================================
 
@@ -309,53 +323,32 @@ The unit circle is a circle with a radius of 1. It is centered at the origin of 
 
 \section{Transformations of Functions}
 
-\begin{table}[h]
-    \centering
-    \begin{tabular}{|c|c|c|c|}
-    \hline
-    Transformation of \(f(c>0)\) & Effect on the graph of \(f\) \\
-    \hline
+\rowcolors{3}{gray!10}{white!50}
+\begin{tabular}{*5l} \toprule
+	Transformation of \(f(c>0)\) & Effect on the graph of \(f\) \\ \midrule
    \(f(x)+c\) & Vertical shift up \(c\) units \\
-    \hline
     \(f(x)-c\) & Vertical shift down \(c\) units \\
-    \hline
     \(f(x+c)\) & Shift left by \(c\) units \\
-    \hline
     \(f(x-c)\) & Shift right by \(c\) units \\
-    \hline
 	\(cf(x)\) & Vertical Stretch if \(c>1\); vertical compression if \(0<c<1\) \\
-	\hline
 	\(f(cx)\) & Horizontal stretch if \(0<c<1\); horizontal compression if \(c>1\) \\
-	\hline
 	\(-f(x)\) & Reflection about the \(x\)-axis \\
-	\hline
-	\(f(-x)\) & Reflection about the \(y\)-axis \\
-	\hline
-    \end{tabular}
-    \end{table}
+	\(f(-x)\) & Reflection about the \(y\)-axis \\ \bottomrule
+\end{tabular}
 
 	Table 1.7 Transformations of Functions
 
 	\section{Common Angles}
 
-	\begin{table}[h]
-		\centering
-		\begin{tabular}{|c|c|c|c|}
-		\hline
-		Degrees & Radians & Degrees & Radians \\
-		\hline
+	\rowcolors{3}{gray!10}{white!50}
+	\begin{tabular}{*5l} \toprule
+		Degrees & Radians & Degrees & Radians \\ \midrule
 	   \(0\) & \(0\) & \(120\) & \(\frac{2\pi}{3}\) \\
-	   \hline
 	\(30\) & \(\frac{\pi}{6}\) & \(135\) & \(\frac{3\pi}{4}\) \\
-	\hline
 	\(45\) & \(\frac{\pi}{4}\) & \(150\) & \(\frac{5\pi}{6}\) \\
-	\hline
 	\(60\) & \(\frac{\pi}{3}\) & \(180\) & \(\pi\) \\
-	\hline
-	\(90\) & \(\frac{\pi}{2}\) & ... & ... \\
-	\hline
+	\(90\) & \(\frac{\pi}{2}\) & ... & ... \\ \bottomrule
 	\end{tabular}
-	\end{table}
 
 	Table 1.8 Common Angles Expressed in Degrees and Radians
 

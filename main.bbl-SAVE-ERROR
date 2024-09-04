@@ -1,0 +1,146 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{strang_calculus_2016}{book}{}
+      \name{author}{18}{}{%
+        {{hash=93733dfde0c47db226efad798ab3b662}{%
+           family={Strang},
+           familyi={S\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod}}}%
+        {{hash=76fd01929dfb657fc74cd2f0853a2b45}{%
+           family={Herman},
+           familyi={H\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d086844fbcc2e7522f33ebf1694272f8}{%
+           family={Lakey},
+           familyi={L\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=29895e93b7ee920f004a3fbe509ba974}{%
+           family={Terry},
+           familyi={T\bibinitperiod},
+           given={Elaine},
+           giveni={E\bibinitperiod}}}%
+        {{hash=00b341271f6d5ca4a110c2e19a2f4167}{%
+           family={Mulzet},
+           familyi={M\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod}}}%
+        {{hash=965c353305366f0c404070b0a2cac3a2}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Sheri},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3ffcd867ae8767dbd2e430999c0e51f4}{%
+           family={Debnath},
+           familyi={D\bibinitperiod},
+           given={Joyanti},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9772fcd6f6097a442cb298449a2c46cb}{%
+           family={Merriweather},
+           familyi={M\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5dae92275f3afda5b0b3da88efb93844}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e82598746374656143337d99b19ba1a6}{%
+           family={Bila},
+           familyi={B\bibinitperiod},
+           given={Nicoleta},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9f22da86b06c035b16a1afc9475b9e39}{%
+           family={Falduto},
+           familyi={F\bibinitperiod},
+           given={Valeree},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5a6dd8ce30e283140d6b7e2f695ca34f}{%
+           family={Messer},
+           familyi={M\bibinitperiod},
+           given={Kirsten},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1abba1a48720a40f7446d4d3163b58db}{%
+           family={Radulovich},
+           familyi={R\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=db6bc03b32d43c7e553d39241534609b}{%
+           family={Rutter},
+           familyi={R\bibinitperiod},
+           given={Erica},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a0fa5491ad3c3b0a86237e5c60c5969a}{%
+           family={Torain},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d8b80c019081f213b4eba09a1b5e0922}{%
+           family={Abbot},
+           familyi={A\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=90c995f4698547bc67b5978eb014b091}{%
+           family={Levandosky},
+           familyi={L\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ce7774806d81d80388bd742061c2d5b6}{%
+           family={McCune},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \list{publisher}{1}{%
+        {OpenStax}%
+      }
+      \strng{namehash}{2bd14818a713dad92514db803b11ca42}
+      \strng{fullhash}{086badb0954df9839a1f5e0631cee302}
+      \strng{bibnamehash}{2bd14818a713dad92514db803b11ca42}
+      \strng{authorbibnamehash}{2bd14818a713dad92514db803b11ca42}
+      \strng{authornamehash}{2bd14818a713dad92514db803b11ca42}
+      \strng{authorfullhash}{086badb0954df9839a1f5e0631cee302}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Calculus is designed for the typical two- or three-semester general calculus course, incorporating innovative features to enhance student learning. The book guides students through the core concepts of calculus and helps them understand how those concepts apply to their lives and the world around them. Due to the comprehensive nature of the material, we are offering the book in three volumes for flexibility and efficiency. Volume 1 covers functions, limits, derivatives, and integration. Please note that this title is published under a CC BY-NC-SA 4.0 license, which means that you are free to use and adapt, but not for commercial purposes. Changes you make need to be shared using this license.}
+      \field{isbn}{978-1-947172-13-5}
+      \field{month}{3}
+      \field{title}{Calculus {Volume} 1}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://openstax.org/details/books/calculus-volume-1/
+      \endverb
+      \verb{url}
+      \verb https://openstax.org/details/books/calculus-volume-1/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
