@@ -19,6 +19,40 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{unit}{website}{}
+      \name{author}{1}{}{%
+        {{hash=7c5071f7800a4e0a74aa34458bed8e36}{%
+           family={Aryal},
+           familyi={A\bibinitperiod},
+           given={Supreme},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \list{publisher}{1}{%
+        {TeXample.net}%
+      }
+      \strng{namehash}{7c5071f7800a4e0a74aa34458bed8e36}
+      \strng{fullhash}{7c5071f7800a4e0a74aa34458bed8e36}
+      \strng{bibnamehash}{7c5071f7800a4e0a74aa34458bed8e36}
+      \strng{authorbibnamehash}{7c5071f7800a4e0a74aa34458bed8e36}
+      \strng{authornamehash}{7c5071f7800a4e0a74aa34458bed8e36}
+      \strng{authorfullhash}{7c5071f7800a4e0a74aa34458bed8e36}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Example: Unit circle}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://texample.net/tikz/examples/unit-circle/
+      \endverb
+      \verb{url}
+      \verb https://texample.net/tikz/examples/unit-circle/
+      \endverb
+    \endentry
     \entry{strang_calculus_2016}{book}{}
       \name{author}{18}{}{%
         {{hash=93733dfde0c47db226efad798ab3b662}{%

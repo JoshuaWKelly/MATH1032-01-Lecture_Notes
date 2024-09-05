@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1725399743.77056 "main.bcf" "main.bbl" "main" 1725400653.31564 0
-  "calc.bib" 1725221204.93539 1403 f9d92da2b50a395fd62d3825bf98d737 ""
-  "main.bcf" 1725400653.22136 107770 39c44d44016749e1082c5520caf2840c "pdflatex"
+["biber main"] 1725477571.24261 "main.bcf" "main.bbl" "main" 1725477767.74859 0
+  "calc.bib" 1725477546.20981 1642 5d90c54285374ee433061a6bd8c6b83b ""
+  "main.bcf" 1725477767.6561 107829 7478c0149c0859683db0a0d76c98d37b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1725400651.86435 "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" "main.pdf" "main" 1725400653.31596 0
-  "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" 1725400651.63034 18434 4c39d905f89436fa375e174f35765fee ""
+["pdflatex"] 1725477766.38302 "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" "main.pdf" "main" 1725477767.74887 0
+  "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" 1725477764.75341 18721 29729324f3b946f2d320a8095dbeebc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -229,12 +229,12 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1721751789.26367 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1721751736 8221420 18f7b56ff33f4072bd1e973669497225 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1725400653.21946 6696 713152ac51b419c87c65f4852db15c3b "pdflatex"
-  "main.bbl" 1725399746.15195 5642 14e8eed3d3983e560701736692d18488 "biber main"
-  "main.out" 1725400653.22046 6273 8e66800ffaf3445bb73bb0974db479b7 "pdflatex"
-  "main.run.xml" 1725400653.22196 2299 b2c9fb5e9d691e58f2d3f66f33bb5ad0 "pdflatex"
-  "main.tex" 1725400651.63034 18434 4c39d905f89436fa375e174f35765fee ""
-  "main.toc" 1725400653.22204 3840 1c2af68efc48eeffd36620a9f621727e "pdflatex"
+  "main.aux" 1725477767.65418 6808 dd4be9aa587544cb21481ecf30b417d5 "pdflatex"
+  "main.bbl" 1725477573.6163 6817 4776a3b347658083d43a9a72b29290f0 "biber main"
+  "main.out" 1725477767.65524 6273 8e66800ffaf3445bb73bb0974db479b7 "pdflatex"
+  "main.run.xml" 1725477767.6567 2299 b2c9fb5e9d691e58f2d3f66f33bb5ad0 "pdflatex"
+  "main.tex" 1725477764.75341 18721 29729324f3b946f2d320a8095dbeebc8 ""
+  "main.toc" 1725477767.65676 3840 1c2af68efc48eeffd36620a9f621727e "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
