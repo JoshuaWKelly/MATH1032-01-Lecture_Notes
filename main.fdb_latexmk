@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1725477571.24261 "main.bcf" "main.bbl" "main" 1725477767.74859 0
+["biber main"] 1725477571.24261 "main.bcf" "main.bbl" "main" 1725654764.99838 0
   "calc.bib" 1725477546.20981 1642 5d90c54285374ee433061a6bd8c6b83b ""
-  "main.bcf" 1725477767.6561 107829 7478c0149c0859683db0a0d76c98d37b "pdflatex"
+  "main.bcf" 1725654764.89582 107829 7478c0149c0859683db0a0d76c98d37b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1725477766.38302 "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" "main.pdf" "main" 1725477767.74887 0
-  "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" 1725477764.75341 18721 29729324f3b946f2d320a8095dbeebc8 ""
+["pdflatex"] 1725654763.58451 "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" "main.pdf" "main" 1725654764.9987 0
+  "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/main.tex" 1725654763.37636 18928 34b5c5724d401aafd7ec73f07be213be ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -50,6 +50,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb" 1463430686 173219 54847ac27638e1e28852258f5be2fa20 ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -229,12 +230,12 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1721751789.26367 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1721751736 8221420 18f7b56ff33f4072bd1e973669497225 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1725477767.65418 6808 dd4be9aa587544cb21481ecf30b417d5 "pdflatex"
+  "main.aux" 1725654764.89414 6808 dd4be9aa587544cb21481ecf30b417d5 "pdflatex"
   "main.bbl" 1725477573.6163 6817 4776a3b347658083d43a9a72b29290f0 "biber main"
-  "main.out" 1725477767.65524 6273 8e66800ffaf3445bb73bb0974db479b7 "pdflatex"
-  "main.run.xml" 1725477767.6567 2299 b2c9fb5e9d691e58f2d3f66f33bb5ad0 "pdflatex"
-  "main.tex" 1725477764.75341 18721 29729324f3b946f2d320a8095dbeebc8 ""
-  "main.toc" 1725477767.65676 3840 1c2af68efc48eeffd36620a9f621727e "pdflatex"
+  "main.out" 1725654764.89502 6273 8e66800ffaf3445bb73bb0974db479b7 "pdflatex"
+  "main.run.xml" 1725654764.89659 2299 b2c9fb5e9d691e58f2d3f66f33bb5ad0 "pdflatex"
+  "main.tex" 1725654763.37636 18928 34b5c5724d401aafd7ec73f07be213be ""
+  "main.toc" 1725654764.8967 3840 1c2af68efc48eeffd36620a9f621727e "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
