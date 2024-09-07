@@ -1,0 +1,460 @@
+<h2 class="unnumbered" id="authors-note">Author’s Note</h2>
+<p>These lecture notes are a compilation of material from the course
+Analytic Geometry and Calculus I (MATH1032) at La Roche University for
+the Fall 2024 Semester, supplemented with personal notes and reflections
+on the subject matter. My notes may be accessed at<br />
+<a
+href="https://github.com/JoshuaWKelly/MATH1032-01-Lecture_Notes/tree/main"
+class="uri">https://github.com/JoshuaWKelly/MATH1032-01-Lecture_Notes/tree/main</a>.
+The formatting and style of these notes are inspired by the Feynman
+Lectures on Physics (<a href="https://www.feynmanlectures.caltech.edu/"
+class="uri">https://www.feynmanlectures.caltech.edu/</a>), and aim to
+present the concepts of calculus and analytic geometry in an engaging
+and accessible manner – similar to how Richard Feynman conveyed complex
+physics topics.</p>
+<p>The content primarily draws from <em>Calculus Volume 1</em> by
+Gilbert Strang et al.<span class="citation"
+data-cites="strang_calculus_2016"></span>, a foundational text that
+provides a thorough introduction to calculus. Problems, examples, and
+exercises referenced in these notes are sourced directly from this
+textbook unless otherwise noted. The intention is to provide students
+with a resource that not only follows the course curriculum but also
+adds depth and clarity to the material covered in lectures.</p>
+<p>I hope these notes serve as a helpful guide for anyone studying
+calculus and encourage further exploration and understanding of the
+subject.<br />
+<br />
+<em>La Roche University</em><br />
+</p>
+<h2 class="unnumbered"
+id="cc0-1.0-universal-cc0-1.0-public-domain-dedication">CC0 1.0
+Universal (CC0 1.0) Public Domain Dedication</h2>
+<p><strong>No Copyright</strong>  This work is dedicated to the public
+domain under the Creative Commons Zero (CC0) license. To the extent
+possible under law, the author has waived all copyright and related or
+neighboring rights to this work.</p>
+<p>You can copy, modify, distribute and perform the work, even for
+commercial purposes, all without asking permission. For more
+information, see <a
+href="https://creativecommons.org/publicdomain/zero/1.0/"
+class="uri">https://creativecommons.org/publicdomain/zero/1.0/</a>.</p>
+<h1 id="important-formulas">Important Formulas</h1>
+<h2 id="linear-functions">Linear Functions</h2>
+<h3 id="slope-intercept-form">Slope-Intercept Form</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = <em>m</em><em>x</em> + <em>b</em></span></p>
+<h3 id="point-slope-form">Point-Slope Form</h3>
+<p><span
+class="math display"><em>y</em> − <em>y</em><sub>1</sub> = <em>m</em>(<em>x</em> − <em>x</em><sub>1</sub>)</span></p>
+<h3 id="standard-form">Standard Form</h3>
+<p><span
+class="math display"><em>a</em><em>x</em> + <em>b</em><em>y</em> = <em>c</em>,</span>
+<span class="math display"><em>a</em> + <em>b</em> ≠ 0</span></p>
+<h3 id="slope-formula">Slope Formula</h3>
+<p><span class="math display">$$m = \frac{y_2 - y_1}{x_2 -
+x_1}$$</span></p>
+<h2 id="quadratic-functions">Quadratic Functions</h2>
+<h3 id="vertex-form">Vertex Form</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = <em>a</em>(<em>x</em> − <em>h</em>)<sup>2</sup> + <em>k</em></span></p>
+<h3 id="standard-form-1">Standard Form</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = <em>a</em><em>x</em><sup>2</sup> + <em>b</em><em>x</em> + <em>c</em></span></p>
+<h3 id="quadratic-formula">Quadratic Formula</h3>
+<p><span class="math display">$$x = \frac{-b \pm \sqrt{b^2 -
+4ac}}{2a}$$</span></p>
+<h2 id="exponential-functions">Exponential Functions</h2>
+<h3 id="exponential-growth">Exponential Growth</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = <em>a</em><em>b</em><sup><em>x</em></sup></span></p>
+<h3 id="exponential-decay">Exponential Decay</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = <em>a</em><em>b</em><sup>−<em>x</em></sup></span></p>
+<h2 id="logarithmic-functions">Logarithmic Functions</h2>
+<h3 id="common-logarithm">Common Logarithm</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = log<sub><em>b</em></sub>(<em>x</em>)</span></p>
+<h3 id="natural-logarithm">Natural Logarithm</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = ln (<em>x</em>)</span></p>
+<h2 id="trigonometric-functions">Trigonometric Functions</h2>
+<h3 id="sine-function">Sine Function</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = sin (<em>x</em>)</span></p>
+<h3 id="cosine-function">Cosine Function</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = cos (<em>x</em>)</span></p>
+<h3 id="tangent-function">Tangent Function</h3>
+<p><span
+class="math display"><em>f</em>(<em>x</em>) = tan (<em>x</em>)</span></p>
+<h2 id="limits">Limits</h2>
+<h3 id="definition-of-a-limit">Definition of a Limit</h3>
+<p><span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>) = <em>L</em></span></p>
+<h3 id="limit-laws">Limit Laws</h3>
+<p><span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub>[<em>f</em>(<em>x</em>) + <em>g</em>(<em>x</em>)] = lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>) + lim<sub><em>x</em> → <em>a</em></sub><em>g</em>(<em>x</em>)</span></p>
+<p><span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub>[<em>f</em>(<em>x</em>) − <em>g</em>(<em>x</em>)] = lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>) − lim<sub><em>x</em> → <em>a</em></sub><em>g</em>(<em>x</em>)</span></p>
+<p><span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub>[<em>c</em><em>f</em>(<em>x</em>)] = <em>c</em>lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>)</span></p>
+<p><span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub>[<em>f</em>(<em>x</em>)<em>g</em>(<em>x</em>)] = lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>)lim<sub><em>x</em> → <em>a</em></sub><em>g</em>(<em>x</em>)</span></p>
+<p><span class="math display">$$\lim_{x \to a} \frac{f(x)}{g(x)} =
+\frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}$$</span></p>
+<p><span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub>[<em>f</em>(<em>x</em>)]<sup><em>n</em></sup> = [lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>)]<sup><em>n</em></sup></span></p>
+<p><span class="math display">$$\lim_{x \to a} \sqrt[n]{f(x)} =
+\sqrt[n]{\lim_{x \to a} f(x)}$$</span></p>
+<p><span class="math display">$$\lim_{x \to a} \sqrt[n]{f(x)} =
+\sqrt[n]{\lim_{x \to a} f(x)}$$</span></p>
+<p><span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>)<sup><em>g</em>(<em>x</em>)</sup> = [lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>)]<sup>lim<sub><em>x</em> → <em>a</em></sub><em>g</em>(<em>x</em>)</sup></span></p>
+<p><span class="math display">$$\lim_{x \to a} \frac{1}{f(x)} =
+\frac{1}{\lim_{x \to a} f(x)}$$</span></p>
+<p><span class="math display">$$\lim_{x \to a} \frac{1}{f(x)} =
+\frac{1}{\lim_{x \to a} f(x)}$$</span></p>
+<p><span class="math display">$$\lim_{x \to a} \frac{1}{f(x)} =
+\frac{1}{\lim_{x \to a} f(x)}$$</span></p>
+<p><span class="math display">$$\lim_{x \to a} \frac{1}{f(x)} =
+\frac{1}{\lim_{x \to a} f(x)}$$</span></p>
+<p><span class="math display">$$\lim_{x \to a} \frac{1}{f(x)} =
+\frac{1}{\lim_{x \to a} f(x)}$$</span></p>
+<h1 id="definitions">Definitions</h1>
+<h2 id="linear-functions-1">Linear Functions</h2>
+<p>One of the most important functions in mathematics is the linear
+function. A linear function is a function that can be written in the
+form <span
+class="math inline"><em>f</em>(<em>x</em>) = <em>m</em><em>x</em> + <em>b</em></span>,
+where <span class="math inline"><em>m</em></span> is the slope of the
+line and <span class="math inline"><em>b</em></span> is the <span
+class="math inline"><em>y</em></span>-intercept.</p>
+<h2 id="unit-circle">Unit Circle</h2>
+<p>The unit circle is a circle with a radius of 1. It is centered at the
+origin of the coordinate plane and is used to define the trigonometric
+functions.</p>
+<div class="center">
+
+</div>
+<p>Credit: Supreme Aryal <span class="citation"
+data-cites="unit"></span><br />
+Rights: CC BY 2.5</p>
+<h2 id="transformations-of-functions">Transformations of Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Transformation of <span
+class="math inline"><em>f</em>(<em>c</em> &gt; 0)</span></th>
+<th style="text-align: left;">Effect on the graph of <span
+class="math inline"><em>f</em></span></th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span
+class="math inline"><em>f</em>(<em>x</em>) + <em>c</em></span></td>
+<td style="text-align: left;">Vertical shift up <span
+class="math inline"><em>c</em></span> units</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline"><em>f</em>(<em>x</em>) − <em>c</em></span></td>
+<td style="text-align: left;">Vertical shift down <span
+class="math inline"><em>c</em></span> units</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline"><em>f</em>(<em>x</em> + <em>c</em>)</span></td>
+<td style="text-align: left;">Shift left by <span
+class="math inline"><em>c</em></span> units</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline"><em>f</em>(<em>x</em> − <em>c</em>)</span></td>
+<td style="text-align: left;">Shift right by <span
+class="math inline"><em>c</em></span> units</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline"><em>c</em><em>f</em>(<em>x</em>)</span></td>
+<td style="text-align: left;">Vertical Stretch if <span
+class="math inline"><em>c</em> &gt; 1</span>; vertical compression if
+<span class="math inline">0 &lt; <em>c</em> &lt; 1</span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline"><em>f</em>(<em>c</em><em>x</em>)</span></td>
+<td style="text-align: left;">Horizontal stretch if <span
+class="math inline">0 &lt; <em>c</em> &lt; 1</span>; horizontal
+compression if <span class="math inline"><em>c</em> &gt; 1</span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline">−<em>f</em>(<em>x</em>)</span></td>
+<td style="text-align: left;">Reflection about the <span
+class="math inline"><em>x</em></span>-axis</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span
+class="math inline"><em>f</em>(−<em>x</em>)</span></td>
+<td style="text-align: left;">Reflection about the <span
+class="math inline"><em>y</em></span>-axis</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Table 1.7 Transformations of Functions</p>
+<h2 id="common-angles">Common Angles</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Degrees</th>
+<th style="text-align: left;">Radians</th>
+<th style="text-align: left;">Degrees</th>
+<th style="text-align: left;">Radians</th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span class="math inline">0</span></td>
+<td style="text-align: left;"><span class="math inline">0</span></td>
+<td style="text-align: left;"><span class="math inline">120</span></td>
+<td style="text-align: left;"><span
+class="math inline">$\frac{2\pi}{3}$</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">30</span></td>
+<td style="text-align: left;"><span
+class="math inline">$\frac{\pi}{6}$</span></td>
+<td style="text-align: left;"><span class="math inline">135</span></td>
+<td style="text-align: left;"><span
+class="math inline">$\frac{3\pi}{4}$</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">45</span></td>
+<td style="text-align: left;"><span
+class="math inline">$\frac{\pi}{4}$</span></td>
+<td style="text-align: left;"><span class="math inline">150</span></td>
+<td style="text-align: left;"><span
+class="math inline">$\frac{5\pi}{6}$</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">60</span></td>
+<td style="text-align: left;"><span
+class="math inline">$\frac{\pi}{3}$</span></td>
+<td style="text-align: left;"><span class="math inline">180</span></td>
+<td style="text-align: left;"><span
+class="math inline"><em>π</em></span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">90</span></td>
+<td style="text-align: left;"><span
+class="math inline">$\frac{\pi}{2}$</span></td>
+<td style="text-align: left;">...</td>
+<td style="text-align: left;">...</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Table 1.8 Common Angles Expressed in Degrees and Radians</p>
+<h2 id="trigonometric-functions-1">Trigonometric Functions</h2>
+<p><strong>Figure 1.31</strong> The angle <span
+class="math inline">0</span> is in standard position. The values of the
+trigonometric functions for <span class="math inline">0</span> are
+defined in terms of the coordinates <span
+class="math inline"><em>x</em></span> and <span
+class="math inline"><em>y</em></span>.</p>
+<p>Let <span
+class="math inline"><em>P</em> = (<em>x</em>, <em>y</em>)</span> be a
+point on the unit circle centered at the origin <span
+class="math inline"><em>O</em></span>. Let <span
+class="math inline"><em>θ</em></span> be an angle with an initial side
+along the positive <span class="math inline"><em>x</em></span>-axis and
+a terminal side given by the segment <span
+class="math inline"><em>O</em><em>P</em></span>. The
+<strong>trigonometric functions</strong> are then defined as</p>
+<p><span class="math display">sin <em>θ</em> = <em>y</em></span> <span
+class="math display">cos <em>θ</em> = <em>x</em></span> <span
+class="math display">$$\tan\theta=\frac{y}{x}$$</span> <span
+class="math display">$$\csc\theta=\frac{1}{y}$$</span> <span
+class="math display">$$\sec\theta=\frac{1}{x}$$</span> <span
+class="math display">$$\cot\theta=\frac{x}{y}$$</span></p>
+<p>If <span class="math inline"><em>x</em> = 0</span>, <span
+class="math inline">sec <em>θ</em></span>, and <span
+class="math inline">tan <em>θ</em></span> are defined. If <span
+class="math inline"><em>y</em> = 0</span>, then <span
+class="math inline">cot <em>θ</em></span> and <span
+class="math inline">csc <em>θ</em></span> are undefined.</p>
+<h3 id="trigonometric-identities">Trigonometric Identities</h3>
+<h4 id="reciprocal-identities">Reciprocal Identities</h4>
+<p><span class="math display">$$\tan \theta = \frac{\sin\theta}{\cos
+\theta}$$</span></p>
+<p><span class="math display">$$\csc \theta = \frac{1}{\sin
+\theta}$$</span></p>
+<p><span class="math display">$$\cot \theta = \frac{\cos \theta}{\sin
+\theta}$$</span></p>
+<p><span class="math display">$$\sec \theta = \frac{1}{\cos
+\theta}$$</span></p>
+<h4 id="pythagorean-identities">Pythagorean identities</h4>
+<p><span
+class="math display">sin<sup>2</sup><em>θ</em> + cos<sup>2</sup><em>θ</em> = 1</span></p>
+<p><span
+class="math display">1 + tan<sup>2</sup><em>θ</em> + 1 = sec<sup>2</sup><em>θ</em></span></p>
+<p><span
+class="math display">1 + cot<sup>2</sup><em>θ</em> = csc<sup>2</sup><em>θ</em></span></p>
+<h4 id="addition-and-subtraction-formulas">Addition and subtraction
+formulas</h4>
+<p><span
+class="math display">sin (<em>α</em> ± <em>β</em>) = sin <em>α</em>cos <em>β</em> ± cos <em>α</em>sin <em>β</em></span></p>
+<p><span
+class="math display">cos (<em>α</em> ± <em>β</em>) = cos <em>α</em>cos <em>β</em> ∓ sin <em>α</em>sin <em>β</em></span></p>
+<h4 id="double-angle-formulas">Double-angle formulas</h4>
+<p><span
+class="math display">sin 2<em>θ</em> = 2sin <em>θ</em>cos <em>θ</em></span></p>
+<p><span
+class="math display">cos (2<em>θ</em>) = 2cos<sup>2</sup><em>θ</em> − 1 = 1 − 2sin<sup>2</sup><em>θ</em> = cos<sup>2</sup><em>θ</em> − sin<sup>2</sup><em>θ</em></span></p>
+<h1 id="review-of-functions">Review of Functions</h1>
+<h2 id="introduction">Introduction</h2>
+<h2 id="linear-functions-2">Linear Functions</h2>
+<p>A linear function is a function that can be written in the form <span
+class="math inline"><em>f</em>(<em>x</em>) = <em>m</em><em>x</em> + <em>b</em></span>,
+where <span class="math inline"><em>m</em></span> is the slope of the
+line and <span class="math inline"><em>b</em></span> is the <span
+class="math inline"><em>y</em></span>-intercept.</p>
+<h3 id="hyperbolic-functions">Hyperbolic Functions</h3>
+<p>Hyperbolic cosine <span class="math display">$$\cosh x = \frac{e^x +
+e^{-x}}{2}$$</span></p>
+<h1 id="limits-1">Limits</h1>
+<h2 id="introduction-1">Introduction</h2>
+<p>This is the introduction section of my document.</p>
+<h2 id="intutive-definition-of-a-limit">Intutive Definition of a
+Limit</h2>
+<p>Imagine you’re standing on the shore, looking out at the ocean. You
+see a boat far away, and it’s moving towards you. As the boat gets
+closer, it appears larger and clearer, but if it were to keep coming
+closer indefinitely, it would eventually reach you, right at your feet.
+Now, we might say that the boat “approaches” you as it moves closer and
+closer.</p>
+<p>In mathematics, a limit is a way of describing what happens when we
+look at how something changes as we move closer to a certain point.
+Think of it as focusing on what happens in the “long run” as we approach
+a specific point, rather than what happens exactly at that point.</p>
+<p>Let’s use an example with numbers: Imagine you have a sequence of
+numbers that gets closer and closer to 10, like 9, 9.9, 9.99, 9.999, and
+so on. Even though none of these numbers are exactly 10, we can say that
+“in the limit,” these numbers are approaching 10. The limit of this
+sequence is 10 because, as we go further along in the sequence, the
+numbers get arbitrarily close to 10.</p>
+<p>In this sense, a limit is about getting closer and closer to
+something without necessarily ever reaching it. It’s about the behavior
+of a function or a sequence as we move toward a certain point or as the
+input grows indefinitely.</p>
+<p>In mathematical terms, if we say the limit of <span
+class="math inline"><em>f</em>(<em>x</em>)</span> as <span
+class="math inline"><em>x</em></span> approaches <span
+class="math inline"><em>a</em></span> is <span
+class="math inline"><em>L</em></span>, we mean that we can get <span
+class="math inline"><em>f</em>(<em>x</em>)</span> as close as we want to
+<span class="math inline"><em>L</em></span> by taking x sufficiently
+close to <span class="math inline"><em>a</em></span>, but not
+necessarily equal to <span class="math inline"><em>a</em></span>.</p>
+<h2 id="preview-of-calculus">Preview of Calculus</h2>
+<div class="formula">
+<p><span>Formula</span> <span
+class="math display">$$m_{sec}=\frac{f(x)-f(a)}{x-a}$$</span></p>
+</div>
+<h2 id="the-limit-of-a-function">The Limit of A Function</h2>
+<h2 id="the-limit-laws">The Limit Laws</h2>
+<h2 id="continuity">Continuity</h2>
+<h2 id="the-precise-definition-of-a-limit">The Precise Definition of a
+Limit</h2>
+<div class="formula">
+<p><span>Precise Definition of a Limit</span> <span
+class="math display">lim<sub><em>x</em> → <em>a</em></sub><em>f</em>(<em>x</em>) = <em>L</em></span></p>
+</div>
+<div class="definition">
+<p><span>Definition of a Limit</span> The limit of a function <span
+class="math inline"><em>f</em>(<em>x</em>)</span> as <span
+class="math inline"><em>x</em></span> approaches <span
+class="math inline"><em>a</em></span> is <span
+class="math inline"><em>L</em></span> if for every <span
+class="math inline"><em>ϵ</em> &gt; 0</span> there exists a <span
+class="math inline"><em>δ</em> &gt; 0</span> such that if <span
+class="math inline">0 &lt; |<em>x</em> − <em>a</em>| &lt; <em>δ</em></span>,
+then <span
+class="math inline">|<em>f</em>(<em>x</em>) − <em>L</em>| &lt; <em>ϵ</em></span>.</p>
+</div>
+<div class="example">
+<p><span>Example 1</span> Enter an example here.</p>
+</div>
+<div class="important">
+<p><span>Important</span> It is important that...</p>
+</div>
+<div class="formula">
+<p><span>Formula</span> Enter a formula here.</p>
+</div>
+<div class="proof">
+<p><em>Proof.</em> <span>Proof</span> This is a proof ◻</p>
+</div>
+<p><span class="math display"><em>s</em>(<em>t</em>) = position of the
+object at time <em>t</em></span></p>
+<div class="example">
+<p><span>Example 2.2</span> <span
+class="math display"><em>s</em>(<em>t</em>) = 16<em>t</em><sup>2</sup> + 64</span>
+a) <span class="math inline">[0.49, 0.50]</span><br />
+<span
+class="math display">$$\frac{s(0.5)-s(0.49)}{0.5-0.49}=-15.84$$</span>
+b) <span class="math inline">[0.50, 0.51]</span><br />
+<span
+class="math display">$$\frac{s(0.51)-s(0.5)}{0.51-0.5}=16.16u$$</span></p>
+</div>
+<h1 id="derivatives">Derivatives</h1>
+<p>One of the most important concepts in calculus is the derivative. The
+derivative of a function is a measure of how the function changes as its
+input changes. It tells us how the function is changing at any given
+point, and it is used to solve a wide variety of problems in
+mathematics, science, and engineering.</p>
+<section id="appendix" class="appendix">
+<h1>Appendix</h1>
+<p>One</p>
+<p>Let <span class="math inline"><em>f</em>(<em>x</em>)</span> be a
+<span class="math inline">ℝ</span>. Then <span
+class="math inline"><em>f</em>(<em>x</em>)</span> is a function of <span
+class="math inline"><em>x</em></span> if for each <span
+class="math inline"><em>x</em></span> in the domain of <span
+class="math inline"><em>f</em>(<em>x</em>)</span>, there is exactly one
+value of <span class="math inline"><em>f</em>(<em>x</em>)</span>.</p>
+<p><span class="math inline">$\text{Let, \space}f(x)=9+5\text{\space
+where \space}9\neq 0$</span></p>
+</section>
