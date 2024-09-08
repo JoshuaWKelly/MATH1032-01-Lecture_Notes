@@ -1,0 +1,6 @@
+PWD /Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes
+INPUT /usr/local/texlive/2024/texmf.cnf
+INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt
+INPUT /Users/joshuakelly/Desktop/Dissertate-master/assets/latex-base/dissertation.tex
+OUTPUT dissertation.log

@@ -1,0 +1,14 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "dissertation.xdv" "dissertation.pdf" "dissertation" 0 -1
+  "dissertation.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "dissertation.pdf"
+  (rewritten before read)
+["xelatex"] 0 "/Users/joshuakelly/Desktop/Dissertate-master/assets/latex-base/dissertation.tex" "dissertation.xdv" "dissertation" 0 -1
+  "/Users/joshuakelly/Desktop/Dissertate-master/assets/latex-base/dissertation.tex" 0 -1 0 ""
+  "dissertation.aux" 0 -1 0 "xelatex"
+  (generated)
+  "dissertation.aux"
+  "dissertation.log"
+  "dissertation.xdv"
+  (rewritten before read)

@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber preamble"] 1725669683.00009 "preamble.bcf" "preamble.bbl" "preamble" 1725669689.33774 0
+["biber preamble"] 1725669683.00009 "preamble.bcf" "preamble.bbl" "preamble" 1725682661.16392 0
   "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/Bib/calc.bib" 1725477546.20981 1642 5d90c54285374ee433061a6bd8c6b83b ""
-  "preamble.bcf" 1725669689.2233 107895 012ff620e21accd84cc1d5380f86e7c6 "pdflatex"
+  "preamble.bcf" 1725682661.06624 107836 a295d68de9dd42b7fc2d1d2cb201cce9 "pdflatex"
   (generated)
   "preamble.bbl"
   "preamble.blg"
   (rewritten before read)
-["pdflatex"] 1725669687.94302 "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble/preamble.tex" "preamble.pdf" "preamble" 1725669689.33804 0
+["pdflatex"] 1725682659.71747 "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble/preamble.tex" "preamble.pdf" "preamble" 1725682661.16432 2
   "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/appendix.tex" 1725656929.69798 299 1eb29ee9d68be8bca7258bb963aecea3 ""
   "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-1.tex" 1725656929.70416 2993 41f2faef3e54f971bd042d1c05b8b625 ""
-  "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-2.tex" 1725656929.69928 6706 4c5a37b17968a103fa3236dd7bb11245 ""
+  "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-2.tex" 1725682658.04389 6707 41240856a1bd222a4525fe0e90a51fa0 ""
   "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-3.tex" 1725656929.69848 3257 d2303756e266274b542270bf1301edd4 ""
   "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-4.tex" 1725656929.69807 333 948a51eb6a82e649604b8b8253c3cb32 ""
   "/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble/preamble.tex" 1725669681.40058 6208 cae4975e9df392ccb1ecd5fdabb8f93f ""
@@ -235,12 +235,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1721751789.26367 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1721751736 8221420 18f7b56ff33f4072bd1e973669497225 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "preamble.aux" 1725669689.22131 6808 dd4be9aa587544cb21481ecf30b417d5 "pdflatex"
+  "preamble.aux" 1725682661.064 6756 5c689c187b141438c3c93ac26150e04f "pdflatex"
   "preamble.bbl" 1725669685.16976 6817 4776a3b347658083d43a9a72b29290f0 "biber preamble"
-  "preamble.out" 1725669689.22244 6273 8e66800ffaf3445bb73bb0974db479b7 "pdflatex"
-  "preamble.run.xml" 1725669689.22426 2393 3585aa3a5c69f927cd373d890d86cc73 "pdflatex"
+  "preamble.out" 1725682661.06522 6273 8e66800ffaf3445bb73bb0974db479b7 "pdflatex"
   "preamble.tex" 1725669681.40058 6208 cae4975e9df392ccb1ecd5fdabb8f93f ""
-  "preamble.toc" 1725669689.22495 3840 1c2af68efc48eeffd36620a9f621727e "pdflatex"
+  "preamble.toc" 1725682661.06708 3840 1c2af68efc48eeffd36620a9f621727e "pdflatex"
   (generated)
   "preamble.aux"
   "preamble.bcf"

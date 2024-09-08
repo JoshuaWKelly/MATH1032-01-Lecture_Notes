@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.23)  6 SEP 2024 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.23)  7 SEP 2024 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -832,7 +832,8 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 79.
 \@quotelevel=\count471
 \@quotereset=\count472
- (./preamble.aux)
+
+No file preamble.aux.
 \openout1 = `preamble.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -853,7 +854,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
- (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count473
 \scratchdimen=\dimen290
@@ -873,7 +874,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 79.
- (./preamble.out) (./preamble.out)
 \@outlinefile=\write5
 \openout5 = `preamble.out'.
 
@@ -928,15 +928,16 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inpu
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 ) [3{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}] [4
 
-] (./preamble.toc [5])
+]
+No file preamble.toc.
 \tf@toc=\write6
 \openout6 = `preamble.toc'.
 
- [6] (/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-1.tex
-Chapter 1.
-[7
+[5] (/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-1.tex [6
 
-] [8] [9]) (/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-2.tex [10]
+]
+Chapter 1.
+[7] [8] [9]) (/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-2.tex [10]
 Chapter 2.
 
 Overfull \hbox (77.30838pt too wide) in paragraph at lines 73--74
@@ -948,7 +949,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11
 
-] [12]
+]
+/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-2.tex:76: Undefined control sequence.
+l.76 Credit: Supreme Aryal \cinte
+                                 {unit} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[12]
 Overfull \hbox (94.73878pt too wide) in paragraph at lines 84--95
 [] 
  []
@@ -994,25 +1005,40 @@ Appendix A.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `preamble.out' has not changed.
-(rerunfilecheck)             Checksum: 8E66800FFAF3445BB73BB0974DB479B7;6273.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `preamble.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `preamble.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  8E66800FFAF3445BB73BB0974DB479B7;6273.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                preamble
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'preamble.run.xml'.
 \openout1 = `preamble.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39802 strings out of 474116
- 838704 string characters out of 5743682
+ 39745 strings out of 474116
+ 837857 string characters out of 5743682
  1959187 words of memory out of 5000000
- 61497 multiletter control sequences out of 15000+600000
+ 61448 multiletter control sequences out of 15000+600000
  569568 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,96p,886b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on preamble.pdf (27 pages, 236913 bytes).
+Output written on preamble.pdf (27 pages, 231071 bytes).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 473 compressed objects within 5 object streams
+ 385 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
  129 named destinations out of 1000 (max. 500000)
- 509 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
