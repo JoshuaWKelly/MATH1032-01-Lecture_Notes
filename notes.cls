@@ -16,6 +16,7 @@
 \RequirePackage{mdframed} % Allows for creating boxes around text
 \RequirePackage[colorlinks]{hyperref} 
 
+\RequirePackage{cancel} 
 \RequirePackage{graphicx}
 \RequirePackage{amsfonts}
 \RequirePackage{booktabs}
