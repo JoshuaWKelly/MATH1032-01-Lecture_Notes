@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.6)  5 NOV 2024 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.6)  5 NOV 2024 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/joshuaw.kelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble/preamble.tex
-(/Users/joshuaw.kelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble/preamble.tex
+**/Users/joshuaw.kelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble.tex
+(/Users/joshuaw.kelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/book.cls
@@ -832,8 +832,7 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 79.
 \@quotelevel=\count471
 \@quotereset=\count472
-
-No file preamble.aux.
+ (./preamble.aux)
 \openout1 = `preamble.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -854,7 +853,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
-(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count473
 \scratchdimen=\dimen290
@@ -874,6 +873,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 79.
+ (./preamble.out) (./preamble.out)
 \@outlinefile=\write5
 \openout5 = `preamble.out'.
 
@@ -933,33 +933,101 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inpu
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 ) [3{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}] [4
 
-]
-No file preamble.toc.
+] (./preamble.toc [5])
 \tf@toc=\write6
 \openout6 = `preamble.toc'.
 
-[5]
+ [6] (./chapter-1.tex
+Chapter 1.
+[7
 
-! LaTeX Error: File `/Users/joshuakelly/Documents/GitHub/MATH1032-01-Lecture_Notes/chapters/chapter-1.tex' not found.
+] [8] [9]) (./chapter-2.tex [10]
+Chapter 2.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+Overfull \hbox (77.30838pt too wide) in paragraph at lines 73--74
+ [] 
+ []
 
-Enter file name: 
-/Users/joshuaw.kelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble/preamble.tex:108: Emergency stop.
-<read *> 
-         
-l.108 ...-01-Lecture_Notes/chapters/chapter-1.tex}
-                                                  ^^M
-*** (cannot \read from terminal in nonstop modes)
 
- 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11
+
+]
+
+LaTeX Warning: Citation 'unit' on page 12 undefined on input line 76.
+
+[12]
+Overfull \hbox (94.73878pt too wide) in paragraph at lines 84--95
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13] [14] [15]) (./chapter-3.tex [16]
+Chapter 3.
+[17
+
+] [18
+
+]
+Chapter 4.
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+) (./chapter-4.tex [21] [22
+
+]
+Chapter 5.
+)
+
+LaTeX Warning: Empty bibliography on input line 118.
+
+[23] (./appendix.tex [24
+
+]
+Appendix A.
+) [25] (./preamble.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `preamble.out' has not changed.
+(rerunfilecheck)             Checksum: 8E66800FFAF3445BB73BB0974DB479B7;6273.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                preamble
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'preamble.run.xml'.
+\openout1 = `preamble.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 39330 strings out of 474116
- 828196 string characters out of 5743682
- 1932187 words of memory out of 5000000
- 61177 multiletter control sequences out of 15000+600000
- 568315 words of font info for 75 fonts, out of 8000000 for 9000
+ 39757 strings out of 474116
+ 835846 string characters out of 5743682
+ 1959187 words of memory out of 5000000
+ 61461 multiletter control sequences out of 15000+600000
+ 569267 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,96p,762b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
-/Users/joshuaw.kelly/Documents/GitHub/MATH1032-01-Lecture_Notes/preamble/preamble.tex:108:  ==> Fatal error occurred, no output PDF file produced!
+ 84i,9n,96p,753b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on preamble.pdf (25 pages, 224201 bytes).
+PDF statistics:
+ 542 PDF objects out of 1000 (max. 8388607)
+ 454 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 509 words of extra memory for PDF output out of 10000 (max. 10000000)
+
